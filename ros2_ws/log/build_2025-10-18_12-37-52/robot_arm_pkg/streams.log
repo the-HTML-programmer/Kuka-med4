@@ -1,0 +1,20 @@
+[2.317s] Invoking command in '/home/prudy/Task4/ros2_ws/src/robot_arm_pkg': PYTHONPATH=/home/prudy/Task4/ros2_ws/build/robot_arm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm_pkg build --build-base /home/prudy/Task4/ros2_ws/build/robot_arm_pkg/build install --record /home/prudy/Task4/ros2_ws/build/robot_arm_pkg/install.log --single-version-externally-managed install_data
+[3.099s] running egg_info
+[3.101s] writing ../../build/robot_arm_pkg/robot_arm_pkg.egg-info/PKG-INFO
+[3.103s] writing dependency_links to ../../build/robot_arm_pkg/robot_arm_pkg.egg-info/dependency_links.txt
+[3.103s] writing entry points to ../../build/robot_arm_pkg/robot_arm_pkg.egg-info/entry_points.txt
+[3.103s] writing requirements to ../../build/robot_arm_pkg/robot_arm_pkg.egg-info/requires.txt
+[3.103s] writing top-level names to ../../build/robot_arm_pkg/robot_arm_pkg.egg-info/top_level.txt
+[3.109s] reading manifest file '../../build/robot_arm_pkg/robot_arm_pkg.egg-info/SOURCES.txt'
+[3.110s] writing manifest file '../../build/robot_arm_pkg/robot_arm_pkg.egg-info/SOURCES.txt'
+[3.110s] running build
+[3.110s] running build_py
+[3.117s] running install
+[3.118s] running install_lib
+[3.118s] running install_data
+[3.118s] running install_egg_info
+[3.124s] removing '/home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages/robot_arm_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[3.126s] Copying ../../build/robot_arm_pkg/robot_arm_pkg.egg-info to /home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages/robot_arm_pkg-0.0.0-py3.10.egg-info
+[3.126s] running install_scripts
+[3.184s] writing list of installed files to '/home/prudy/Task4/ros2_ws/build/robot_arm_pkg/install.log'
+[3.247s] Invoked command in '/home/prudy/Task4/ros2_ws/src/robot_arm_pkg' returned '0': PYTHONPATH=/home/prudy/Task4/ros2_ws/build/robot_arm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_arm_pkg build --build-base /home/prudy/Task4/ros2_ws/build/robot_arm_pkg/build install --record /home/prudy/Task4/ros2_ws/build/robot_arm_pkg/install.log --single-version-externally-managed install_data

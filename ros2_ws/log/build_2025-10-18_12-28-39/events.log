@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.002541] (robot_arm_pkg) JobQueued: {'identifier': 'robot_arm_pkg', 'dependencies': OrderedDict()}
+[0.006821] (robot_arm_pkg) JobStarted: {'identifier': 'robot_arm_pkg'}
+[0.102868] (-) TimerEvent: {}
+[0.205492] (-) TimerEvent: {}
+[0.306198] (-) TimerEvent: {}
+[0.408228] (-) TimerEvent: {}
+[0.510926] (-) TimerEvent: {}
+[0.614924] (-) TimerEvent: {}
+[0.715401] (-) TimerEvent: {}
+[0.818327] (-) TimerEvent: {}
+[0.921471] (-) TimerEvent: {}
+[1.023482] (-) TimerEvent: {}
+[1.126312] (-) TimerEvent: {}
+[1.229355] (-) TimerEvent: {}
+[1.332279] (-) TimerEvent: {}
+[1.435624] (-) TimerEvent: {}
+[1.536097] (-) TimerEvent: {}
+[1.638500] (-) TimerEvent: {}
+[1.740979] (-) TimerEvent: {}
+[1.842542] (-) TimerEvent: {}
+[1.946791] (-) TimerEvent: {}
+[2.051498] (-) TimerEvent: {}
+[2.152586] (-) TimerEvent: {}
+[2.255482] (-) TimerEvent: {}
+[2.357413] (-) TimerEvent: {}
+[2.463043] (-) TimerEvent: {}
+[2.565888] (-) TimerEvent: {}
+[2.667799] (-) TimerEvent: {}
+[2.769690] (-) TimerEvent: {}
+[2.871464] (-) TimerEvent: {}
+[2.971895] (-) TimerEvent: {}
+[3.073525] (-) TimerEvent: {}
+[3.174934] (-) TimerEvent: {}
+[3.278402] (-) TimerEvent: {}
+[3.381321] (-) TimerEvent: {}
+[3.481791] (-) TimerEvent: {}
+[3.583562] (-) TimerEvent: {}
+[3.686491] (-) TimerEvent: {}
+[3.787025] (-) TimerEvent: {}
+[3.887711] (-) TimerEvent: {}
+[3.989961] (-) TimerEvent: {}
+[4.090501] (-) TimerEvent: {}
+[4.191292] (-) TimerEvent: {}
+[4.291773] (-) TimerEvent: {}
+[4.393572] (-) TimerEvent: {}
+[4.497757] (-) TimerEvent: {}
+[4.598759] (-) TimerEvent: {}
+[4.701543] (-) TimerEvent: {}
+[4.803466] (-) TimerEvent: {}
+[4.909005] (-) TimerEvent: {}
+[5.009474] (-) TimerEvent: {}
+[5.110527] (-) TimerEvent: {}
+[5.211135] (-) TimerEvent: {}
+[5.313315] (-) TimerEvent: {}
+[5.415547] (-) TimerEvent: {}
+[5.487871] (robot_arm_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/prudy/Task4/ros2_ws/build/robot_arm_pkg/build'], 'cwd': '/home/prudy/Task4/ros2_ws/build/robot_arm_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_NG:en', 'USER': 'prudy', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/prudy/ros2_ws/install/my_robot_interfaces/lib:/home/prudy/ros2_ws/src/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/prudy', 'OLDPWD': '/home/prudy/Task4/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1526', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/prudy/turtle_ws/install:/home/prudy/ros2_ws/install:/home/prudy/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'prudy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'prudy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/prudy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/prudy-HP-EliteBook-8470p:@/tmp/.ICE-unix/1501,unix/prudy-HP-EliteBook-8470p:/tmp/.ICE-unix/1501', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/15feb1ef_635d_45e4_bec1_dbba636b117a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LKEWE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.313', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/prudy/turtle_ws/install/turtle_sim_catch_them_all:/home/prudy/ros2_ws/install/my_robot_bringup:/home/prudy/ros2_ws/install/my_py_pkg:/home/prudy/ros2_ws/install/my_robot_interfaces:/home/prudy/ros2_ws/src/install/my_robot_bringup:/home/prudy/ros2_ws/src/install/my_py_pkg:/home/prudy/ros2_ws/src/install/my_robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/prudy/Task4/ros2_ws/build/robot_arm_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/prudy/Task4/ros2_ws/build/robot_arm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages:/home/prudy/turtle_ws/install/turtle_sim_catch_them_all/lib/python3.10/site-packages:/home/prudy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/prudy/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/prudy/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/home/prudy/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/prudy/ros2_ws/install/my_robot_bringup:/home/prudy/ros2_ws/install/my_robot_interfaces:/home/prudy/ros2_ws/src/install/my_robot_bringup:/home/prudy/ros2_ws/src/install/my_robot_interfaces'}, 'shell': False}
+[5.517621] (-) TimerEvent: {}
+[5.618788] (-) TimerEvent: {}
+[5.719865] (-) TimerEvent: {}
+[5.821067] (-) TimerEvent: {}
+[5.923153] (-) TimerEvent: {}
+[6.027484] (-) TimerEvent: {}
+[6.128262] (-) TimerEvent: {}
+[6.229109] (-) TimerEvent: {}
+[6.329559] (-) TimerEvent: {}
+[6.432476] (-) TimerEvent: {}
+[6.535342] (-) TimerEvent: {}
+[6.637479] (-) TimerEvent: {}
+[6.737942] (-) TimerEvent: {}
+[6.838786] (-) TimerEvent: {}
+[6.942915] (-) TimerEvent: {}
+[7.045804] (-) TimerEvent: {}
+[7.146345] (-) TimerEvent: {}
+[7.159108] (robot_arm_pkg) StdoutLine: {'line': b'running develop\n'}
+[7.246488] (-) TimerEvent: {}
+[7.347086] (-) TimerEvent: {}
+[7.451470] (-) TimerEvent: {}
+[7.552073] (-) TimerEvent: {}
+[7.653586] (-) TimerEvent: {}
+[7.754222] (-) TimerEvent: {}
+[7.859317] (-) TimerEvent: {}
+[7.961479] (-) TimerEvent: {}
+[8.061936] (-) TimerEvent: {}
+[8.162427] (-) TimerEvent: {}
+[8.270445] (-) TimerEvent: {}
+[8.317228] (robot_arm_pkg) StdoutLine: {'line': b'Removing /home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages/robot-arm-pkg.egg-link (link to .)\n'}
+[8.370750] (-) TimerEvent: {}
+[8.471257] (-) TimerEvent: {}
+[8.474672] (robot_arm_pkg) CommandEnded: {'returncode': 0}
+[8.478030] (robot_arm_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_arm_pkg', 'build', '--build-base', '/home/prudy/Task4/ros2_ws/build/robot_arm_pkg/build', 'install', '--record', '/home/prudy/Task4/ros2_ws/build/robot_arm_pkg/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/prudy/Task4/ros2_ws/src/robot_arm_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_NG:en', 'USER': 'prudy', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/prudy/ros2_ws/install/my_robot_interfaces/lib:/home/prudy/ros2_ws/src/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/prudy', 'OLDPWD': '/home/prudy/Task4/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1526', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/prudy/turtle_ws/install:/home/prudy/ros2_ws/install:/home/prudy/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'prudy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'prudy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/prudy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/prudy-HP-EliteBook-8470p:@/tmp/.ICE-unix/1501,unix/prudy-HP-EliteBook-8470p:/tmp/.ICE-unix/1501', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/15feb1ef_635d_45e4_bec1_dbba636b117a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LKEWE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.313', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/prudy/turtle_ws/install/turtle_sim_catch_them_all:/home/prudy/ros2_ws/install/my_robot_bringup:/home/prudy/ros2_ws/install/my_py_pkg:/home/prudy/ros2_ws/install/my_robot_interfaces:/home/prudy/ros2_ws/src/install/my_robot_bringup:/home/prudy/ros2_ws/src/install/my_py_pkg:/home/prudy/ros2_ws/src/install/my_robot_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/prudy/Task4/ros2_ws/build/robot_arm_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/prudy/Task4/ros2_ws/build/robot_arm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages:/home/prudy/turtle_ws/install/turtle_sim_catch_them_all/lib/python3.10/site-packages:/home/prudy/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/prudy/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/prudy/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:/home/prudy/ros2_ws/src/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/prudy/ros2_ws/install/my_robot_bringup:/home/prudy/ros2_ws/install/my_robot_interfaces:/home/prudy/ros2_ws/src/install/my_robot_bringup:/home/prudy/ros2_ws/src/install/my_robot_interfaces'}, 'shell': False}
+[8.571401] (-) TimerEvent: {}
+[8.672471] (-) TimerEvent: {}
+[8.777484] (-) TimerEvent: {}
+[8.881494] (-) TimerEvent: {}
+[8.982122] (-) TimerEvent: {}
+[9.082664] (-) TimerEvent: {}
+[9.183097] (-) TimerEvent: {}
+[9.287458] (-) TimerEvent: {}
+[9.387938] (-) TimerEvent: {}
+[9.489457] (-) TimerEvent: {}
+[9.589884] (-) TimerEvent: {}
+[9.690451] (-) TimerEvent: {}
+[9.791742] (-) TimerEvent: {}
+[9.850533] (robot_arm_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[9.854477] (robot_arm_pkg) StdoutLine: {'line': b'writing ../../build/robot_arm_pkg/robot_arm_pkg.egg-info/PKG-INFO\n'}
+[9.854937] (robot_arm_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_arm_pkg/robot_arm_pkg.egg-info/dependency_links.txt\n'}
+[9.855184] (robot_arm_pkg) StdoutLine: {'line': b'writing entry points to ../../build/robot_arm_pkg/robot_arm_pkg.egg-info/entry_points.txt\n'}
+[9.858203] (robot_arm_pkg) StdoutLine: {'line': b'writing requirements to ../../build/robot_arm_pkg/robot_arm_pkg.egg-info/requires.txt\n'}
+[9.858637] (robot_arm_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/robot_arm_pkg/robot_arm_pkg.egg-info/top_level.txt\n'}
+[9.870169] (robot_arm_pkg) StdoutLine: {'line': b"reading manifest file '../../build/robot_arm_pkg/robot_arm_pkg.egg-info/SOURCES.txt'\n"}
+[9.874270] (robot_arm_pkg) StdoutLine: {'line': b"writing manifest file '../../build/robot_arm_pkg/robot_arm_pkg.egg-info/SOURCES.txt'\n"}
+[9.874745] (robot_arm_pkg) StdoutLine: {'line': b'running build\n'}
+[9.875067] (robot_arm_pkg) StdoutLine: {'line': b'running build_py\n'}
+[9.875273] (robot_arm_pkg) StdoutLine: {'line': b'running install\n'}
+[9.877473] (robot_arm_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[9.882875] (robot_arm_pkg) StdoutLine: {'line': b'creating /home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages/robot_arm_pkg\n'}
+[9.883220] (robot_arm_pkg) StdoutLine: {'line': b'copying /home/prudy/Task4/ros2_ws/build/robot_arm_pkg/build/lib/robot_arm_pkg/__init__.py -> /home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages/robot_arm_pkg\n'}
+[9.883444] (robot_arm_pkg) StdoutLine: {'line': b'byte-compiling /home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages/robot_arm_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[9.886575] (robot_arm_pkg) StdoutLine: {'line': b'running install_data\n'}
+[9.888575] (robot_arm_pkg) StdoutLine: {'line': b'copying resource/robot_arm_pkg -> /home/prudy/Task4/ros2_ws/install/robot_arm_pkg/share/ament_index/resource_index/packages\n'}
+[9.888895] (robot_arm_pkg) StdoutLine: {'line': b'copying package.xml -> /home/prudy/Task4/ros2_ws/install/robot_arm_pkg/share/robot_arm_pkg\n'}
+[9.889148] (robot_arm_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.893469] (-) TimerEvent: {}
+[9.898708] (robot_arm_pkg) StdoutLine: {'line': b'Copying ../../build/robot_arm_pkg/robot_arm_pkg.egg-info to /home/prudy/Task4/ros2_ws/install/robot_arm_pkg/lib/python3.10/site-packages/robot_arm_pkg-0.0.0-py3.10.egg-info\n'}
+[9.919543] (robot_arm_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[9.993611] (-) TimerEvent: {}
+[10.013394] (robot_arm_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/prudy/Task4/ros2_ws/build/robot_arm_pkg/install.log'\n"}
+[10.093840] (-) TimerEvent: {}
+[10.114242] (robot_arm_pkg) CommandEnded: {'returncode': 0}
+[10.194504] (-) TimerEvent: {}
+[10.269347] (robot_arm_pkg) JobEnded: {'identifier': 'robot_arm_pkg', 'rc': 0}
+[10.270628] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="kuka-med">
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_arm_pkg/robot_arm_pkg/meshes/link_0.dae" scale="1.0 1.0 1.0"/>
+            </geometry>
+        </visual>
+    </link>
+</robot>
